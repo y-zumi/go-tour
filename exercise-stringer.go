@@ -10,7 +10,6 @@ func (p IPAddr) String() string {
 	return fmt.Sprintf("%d.%d.%d.%d", p[0], p[1], p[2], p[3])
 }
 
-
 func main() {
 	hosts := map[string]IPAddr{
 		"loopback":  {127, 0, 0, 1},
